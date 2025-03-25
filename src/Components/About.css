@@ -1,0 +1,24 @@
+
+
+.icon_style {
+    color: rgb(250, 252, 255);
+    background-color: rgb(236, 0, 68);
+    border-radius: 50%;
+    width:30px;
+    height: 30px;
+    padding: 15px;
+    margin-bottom: 10px;
+   
+}
+.background_color_1
+{
+    background-color: #f6b221;
+}
+.background_color_2
+{
+    background-color: #288dc0;
+}
+.bg_custom
+{
+    background-color: #f8f8f8;
+}

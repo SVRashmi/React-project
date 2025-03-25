@@ -1,0 +1,79 @@
+.navbar-nav .nav-item .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Adjust spacing between text and arrow */
+}
+.nav-link
+{
+  font-size: 16px;
+}
+/* Animation */
+.animate{
+  padding: 0px 10px 0px 0px;
+  transition: all ease 0.4s;
+}
+
+/* Jumbotron */
+.jumbotron{
+  margin-top: 110px;
+} 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other elements */
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 0 2px 8px -2px hsla(0, 0%, 9%, .08), 0 8px 12px -2px hsla(0, 0%, 9%, .16);
+}
+
+/* Apply background only when scrolled */
+.navbar.animate {
+  background-color: #fff /* Dark background when scrolled */
+}
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 90vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url('/public/Images/AI.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url('/public/Images/AI_3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url('/public/Images/GAI.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.logo
+{
+  width: 50px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+}
+.scrolled-brand
+{
+  color:#0d6efd;
+  font-weight: 600;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
+}

@@ -1,0 +1,14 @@
+.card {
+    width: 95% !important;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 0 10px; /* Adds space between cards */
+  }
+  
+  .slick-prev:before, .slick-next:before
+  {
+    color: var(--main-font-color);
+  }
