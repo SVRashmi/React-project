@@ -13,3 +13,12 @@
     font-style: italic;
     font-size: 20px;
 }
+.border_customise
+{
+    border: 1px solid #e2edf9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.brand_name
+{
+    width: 100px;
+}

@@ -35,13 +35,12 @@ function IndustriesGraph() {
       <h2 className='mb-4 text-center'>Defining AI Leaders</h2>
 
       <div className="text-left border-0 rounded-4 mx-auto pb-5">
-        <div className="border border-primary mb-3">
+        <div className="border border_customise mb-3">
           <div className="text-dark">
             <div className='row p-4'>
+            <p className="font-change">The Executive Program in Applied Generative AI caters to working professionals across different industries. Learner diversity adds richness to class discussions and interactions.</p>
               <div className='col-lg-6 col-sm-12'>
-                <p className="font-change">The Executive Program in Applied Generative AI caters to working professionals across different industries. Learner diversity adds richness to class discussions and interactions.</p>
-              </div>
-              <div className='col-lg-6 col-sm-12'>
+               
                 <div ref={ref}>
                   {inView && ( // 👈 Only render PieChart when in view
                     <ResponsiveContainer width="100%" height={400} className="mb-5">
@@ -68,6 +67,57 @@ function IndustriesGraph() {
                 <p className="text-muted small text-center">
                   Source: S&P Global Market Intelligence 451 Research Global Trends in AI custom survey, 2024.
                 </p>
+              </div>
+              <div className='col-lg-6 col-sm-12'>
+              <div className="row m-5">
+                <div className="col-md-4">
+                  <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
+                </div>
+                <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/linkedin_1.png`} className="brand_name" alt="Company name"/>
+                </div>
+                <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/microsoft.png`} className="brand_name" alt="Company name"/>
+                </div>
+               
+              </div>
+              <div className="row m-5">
+                <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/Nvidia_IT.jpg`} className="brand_name" alt="Company name"/>
+                </div>
+                <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/Netflix.png`} className="brand_name" alt="Company name"/>
+                </div>
+                <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/IMB_IT.jpg`} className="brand_name" alt="Company name"/>
+                </div>
+                
+              </div>
+              <div className="row m-5">
+                 <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
+                </div>
+                 <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
+                </div>
+                 <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
+                </div>
+                
+              </div>
+              <div className="row m-5">
+                 <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
+                </div>
+                 <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
+                </div>
+                 <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
+                </div>
+                
+              </div>
+               
               </div>
             </div>
           </div>        
