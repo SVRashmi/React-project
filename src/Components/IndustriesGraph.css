@@ -2,3 +2,7 @@
 {
     text-align: left;
 }
+.recharts-legend-item-text
+{
+    font-size: 12px;
+}

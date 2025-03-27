@@ -12,8 +12,8 @@ function AboutUs() {
   return (
     
     <div>
-    <div className="container">
-    <h3 className='my-5 text-center'>Tailored for Ambitious Professionals Like You</h3>
+    <div class="container mb-5">
+    <h2 class="my-5 text-center">Tailored for Ambitious Professionals Like You</h2>
     <div className='d-flex gap-5'>
     <div className="card text-center shadow-lg border-0 rounded-4 mx-auto" >
     <div className="card-body">

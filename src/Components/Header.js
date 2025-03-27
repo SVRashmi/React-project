@@ -35,7 +35,7 @@ function Headers() {
         <div className="container-fluid">
         <a  className={`navbar-brand ${isScrolled ? "scrolled-brand" : "default-brand"}`} href="#">
         
-        <img src="./Images/Logo.png" className="logo"/>Smart AI Academy
+        <img src="/Images/IndustryLogo.png" className="logo"/>Smart AI Academy
        
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll"

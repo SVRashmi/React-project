@@ -24,7 +24,7 @@ function App() {
 
       {/* Footer */}
       <footer>
-        {/* <Footer /> */}
+        {<Footer />}
       
       </footer>
     </div>
