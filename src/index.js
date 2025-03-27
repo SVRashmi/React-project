@@ -14,7 +14,7 @@ import reportWebVitals from './reportWebVitals';
 import AIModels from "./Components/AIModels";
 import MachineLearning from "./Components/MachineLearning";
 import DeepLearning from "./Components/DeepLearning";
-
+import './index.css';
 
 
 

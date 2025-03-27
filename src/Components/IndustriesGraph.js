@@ -39,7 +39,7 @@ function IndustriesGraph() {
           <div className="text-dark">
             <div className='row p-4'>
               <div className='col-lg-6 col-sm-12'>
-                <p>The Executive Program in Applied Generative AI caters to working professionals across different industries. Learner diversity adds richness to class discussions and interactions.</p>
+                <p className="font-change">The Executive Program in Applied Generative AI caters to working professionals across different industries. Learner diversity adds richness to class discussions and interactions.</p>
               </div>
               <div className='col-lg-6 col-sm-12'>
                 <div ref={ref}>
