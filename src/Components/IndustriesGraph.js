@@ -30,7 +30,7 @@ function IndustriesGraph() {
   });
 
   return (
-    <div className='container'>
+    <div className='container pt-3'>
       <h4 className='text-center text-primary'><b>Why Choose AI</b></h4>
       <h2 className='mb-4 text-center'>Defining AI Leaders</h2>
 
@@ -88,32 +88,34 @@ function IndustriesGraph() {
                 <div className="col-md-4">
                 <img src={`${process.env.PUBLIC_URL}/Images/Netflix.png`} className="brand_name" alt="Company name"/>
                 </div>
+               
                 <div className="col-md-4">
-                <img src={`${process.env.PUBLIC_URL}/Images/IMB_IT.jpg`} className="brand_name" alt="Company name"/>
+                <img src={`${process.env.PUBLIC_URL}/Images/OpenAILogosmall.png`} className="brand_name" alt="Company name"/>
+                </div>
+                
+              </div>
+              <div className="row m-5">
+                
+                 <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/Apple.png`} className="brand_name" alt="Company name"/>
+                </div>
+                <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/deloitte_1.png`} className="brand_name" alt="Company name"/>
+                </div>
+                 <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/Bosch_Manufacturing.jpg`} className="brand_name" alt="Company name"/>
                 </div>
                 
               </div>
               <div className="row m-5">
                  <div className="col-md-4">
-                <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
+                <img src={`${process.env.PUBLIC_URL}/Images/Accenture_Consulting.jpg`} className="brand_name" alt="Company name"/>
+                </div>
+                <div className="col-md-4">
+                <img src={`${process.env.PUBLIC_URL}/Images/IBM_IT.jpg`} className="brand_name" alt="Company name"/>
                 </div>
                  <div className="col-md-4">
-                <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
-                </div>
-                 <div className="col-md-4">
-                <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
-                </div>
-                
-              </div>
-              <div className="row m-5">
-                 <div className="col-md-4">
-                <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
-                </div>
-                 <div className="col-md-4">
-                <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
-                </div>
-                 <div className="col-md-4">
-                <img src={`${process.env.PUBLIC_URL}/Images/Google-Logo.png`} className="brand_name" alt="Company name"/>
+                <img src={`${process.env.PUBLIC_URL}/Images/Siemens_Manufacturing.jpg`} className="brand_name" alt="Company name"/>
                 </div>
                 
               </div>
