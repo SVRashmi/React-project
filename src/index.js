@@ -14,6 +14,7 @@ import reportWebVitals from './reportWebVitals';
 import AIModels from "./Components/AIModels";
 import MachineLearning from "./Components/MachineLearning";
 import DeepLearning from "./Components/DeepLearning";
+import Brochure from "./Components/Brochure";
 import './index.css';
 
 
@@ -31,6 +32,8 @@ root.render(
         <Route path="/deep-learning" element={<DeepLearning />} />
         <Route path="/ContactUs" element={< ContactUs />} />
         <Route path="/Blog" element={< Blog/>} />
+        <Route path="/Brochure" element={<Brochure/>} />
+
         </Routes>
         </Router>
   </React.StrictMode>

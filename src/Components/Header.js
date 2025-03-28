@@ -143,13 +143,10 @@ function Headers() {
         >
         Start tutorial
         </a>
-        <a
-        className="btn btn-outline-light btn-lg m-2"
-        href="https://mdbootstrap.com/docs/standard/"
-        target="_blank"
-        >
-        Download brochure
-        </a>
+        <Link  className="btn btn-outline-light btn-lg m-2" to="/Brochure">Download brochure</Link>
+        
+        
+       
         </div>
         </div>
         </Carousel.Item>
