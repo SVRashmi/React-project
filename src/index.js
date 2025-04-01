@@ -9,7 +9,7 @@ import "@fortawesome/react-fontawesome";
 import AboutUs from "./Components/AboutUs";
 import AiConcepts from "./Components/AiConcepts";
 import Blog from "./Components/Blog";
-import ContactUs from "./Components/ContactUs";
+import ContactUsForm from "./Components/ContactUs";
 import reportWebVitals from './reportWebVitals';
 import AIModels from "./Components/AIModels";
 import MachineLearning from "./Components/MachineLearning";
@@ -30,7 +30,7 @@ root.render(
         <Route path="/ai-models" element={<AIModels />} />
         <Route path="/machine-learning" element={<MachineLearning />} />
         <Route path="/deep-learning" element={<DeepLearning />} />
-        <Route path="/ContactUs" element={< ContactUs />} />
+        <Route path="/ContactUs" element={< ContactUsForm />} />
         <Route path="/Blog" element={< Blog/>} />
         <Route path="/Brochure" element={<Brochure/>} />
 

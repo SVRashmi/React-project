@@ -34,8 +34,8 @@ function IndustriesGraph() {
       <h4 className='text-center text-primary'><b>Why Choose AI</b></h4>
       <h2 className='mb-4 text-center'>Defining AI Leaders</h2>
 
-      <div className="text-left border-0 rounded-4 mx-auto pb-5">
-        <div className="border border_customise mb-3">
+      <div className="text-left border-0  mx-auto pb-5">
+        <div className="border border_customise mb-3 rounded-4 bg-white">
           <div className="text-dark">
             <div className='row p-4'>
             <p className="font-change">The Executive Program in Applied Generative AI caters to working professionals across different industries. Learner diversity adds richness to class discussions and interactions.</p>

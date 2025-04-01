@@ -87,15 +87,12 @@ function Headers() {
         </a>
         </li>
         <li className="nav-item">
-        <a
-        className="nav-link disabled"
+        <Link  className="nav-link"
         href="#"
         tabIndex="-1"
-        aria-disabled="true"
-        >
-        ContactUs 
-        </a>
+        aria-disabled="true" to="/ContactUs"> ContactUs </Link>
         </li>
+
         
         </ul>
         <ul className="navbar-nav ms-auto">
@@ -143,7 +140,7 @@ function Headers() {
         >
         Start tutorial
         </a>
-        <Link  className="btn btn-outline-light btn-lg m-2" to="/Brochure">Download brochure</Link>
+        <Link  className="btn btn-outline-light btn-lg m-2 " to="/Brochure">Download brochure</Link>
         
         
        

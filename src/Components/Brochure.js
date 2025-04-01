@@ -39,6 +39,7 @@ function Brochure() {
     }
   };
     return (
+    
         <div className="container mt-3">
         <div className='row border_customise  p-3'>
         <div className='col-md-6'>
@@ -95,6 +96,7 @@ function Brochure() {
         </div>
         </div>
         </div>
+     
     )
 }
 

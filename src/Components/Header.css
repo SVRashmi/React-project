@@ -24,12 +24,13 @@
   width: 100%;
   z-index: 1000; /* Ensure it stays above other elements */
   transition: background-color 0.3s ease-in-out;
-  box-shadow: 0 2px 8px -2px hsla(0, 0%, 9%, .08), 0 8px 12px -2px hsla(0, 0%, 9%, .16);
+  
 }
 
 /* Apply background only when scrolled */
 .navbar.animate {
-  background-color: #fff /* Dark background when scrolled */
+  background-color: #fff ;/* Dark background when scrolled */
+  box-shadow: 0 2px 8px -2px hsla(0, 0%, 9%, .08), 0 8px 12px -2px hsla(0, 0%, 9%, .16);
 }
 /* Carousel styling */
 #introCarousel,
