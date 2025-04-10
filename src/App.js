@@ -18,8 +18,6 @@ function App() {
           <AboutUs />
         </section>
 
-    
-     
       </main>
 
       {/* Footer */}
