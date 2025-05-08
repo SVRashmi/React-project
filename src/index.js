@@ -16,10 +16,10 @@ import MachineLearning from "./Components/MachineLearning";
 import DeepLearning from "./Components/DeepLearning";
 import Brochure from "./Components/Brochure";
 import ModalRoutesWrapper from './Components/ModalRoutesWrapper';
-
+import AdminDashboard from "./Components/AdminDashboard";
 const RootRoutes = () => {
   const location = useLocation();
-  const backgroundLocation = location.state && location.state.background;
+  const backgroundLocation = location.state?.backgroundLocation;
 
   return (
     <>
@@ -33,6 +33,7 @@ const RootRoutes = () => {
         <Route path="/ContactUs" element={<ContactUsForm />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Brochure" element={<Brochure />} />
+        <Route path="/AdminDashboard" element={<AdminDashboard />} />
       </Routes>
 
       {/* Only show modal routes if triggered */}

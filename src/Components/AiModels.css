@@ -1,0 +1,11 @@
+.navbar
+{
+    background-color:#05192d ;
+}
+.div
+{
+    background: linear-gradient(90deg, rgba(5, 25, 45, 1) 0%, rgba(5, 25, 45, 1) 20%, rgba(5, 25, 45, 0) 100%);
+    content: "";
+    inset: 0;
+    position: absolute;
+}

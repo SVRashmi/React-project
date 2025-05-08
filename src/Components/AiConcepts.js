@@ -1,9 +1,12 @@
 import React from 'react'
-import Trends from './Trends'
+import Headers from './Header'
 
 function AiConcepts() {
   return (
-    <div>  <Trends /></div>
+    <div>  
+      <Headers/>
+      
+    </div>
   )
 }
 

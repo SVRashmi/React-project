@@ -1,3 +1,51 @@
 {
-    "user": []
+  "posts": [
+    {
+      "id": "da23",
+      "name": "Rashmi S",
+      "email": "rashmi.v@impelsys.com",
+      "userType": "Faculty"
+    },
+    {
+      "id": "da23",
+      "name": "Rashmi S",
+      "email": "svrashmi3@gmail.com",
+      "password": "R@shmi771",
+      "userType": "Admin"
+    },
+    {
+      "id": "562c",
+      "name": "User2",
+      "email": "rashmivarahamurthy3@gmail.com",
+      "password": "R@shmi771",
+      "userType": "Student"
+    },
+    {
+      "id": "37ad",
+      "name": "user100",
+      "email": "rashmisd9@gmail.com",
+      "userType": "Student"
+    },
+    {
+      "id": "a243",
+      "name": "User5",
+      "email": "user3@gmail.com",
+      "password": "R@shmi771",
+      "userType": "Faculty"
+    },
+    {
+      "id": "a244",
+      "name": "User6",
+      "email": "user6@gmail.com",
+      "password": "R@shmi771",
+      "userType": "Faculty"
+    },
+    {
+      "id": "a245",
+      "name": "User7",
+      "email": "user7@gmail.com",
+      "password": "R@shmi771",
+      "userType": "Faculty"
+    }
+  ]
 }
