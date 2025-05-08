@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-project/static/css/main.9c0c1522.css",
-    "main.js": "/React-project/static/js/main.5933c25c.js",
+    "main.css": "/React-project/static/css/main.5e8a85e9.css",
+    "main.js": "/React-project/static/js/main.c9b2c8ff.js",
     "static/js/511.a2aa371f.chunk.js": "/React-project/static/js/511.a2aa371f.chunk.js",
     "static/media/AI_3.jpg": "/React-project/static/media/AI_3.e7e4d281e41ff4087e5d.jpg",
     "static/media/AI.jpg": "/React-project/static/media/AI.729764b966c4d49a8698.jpg",
@@ -11,12 +11,12 @@
     "static/media/slick.ttf": "/React-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/React-project/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/React-project/index.html",
-    "main.9c0c1522.css.map": "/React-project/static/css/main.9c0c1522.css.map",
-    "main.5933c25c.js.map": "/React-project/static/js/main.5933c25c.js.map",
+    "main.5e8a85e9.css.map": "/React-project/static/css/main.5e8a85e9.css.map",
+    "main.c9b2c8ff.js.map": "/React-project/static/js/main.c9b2c8ff.js.map",
     "511.a2aa371f.chunk.js.map": "/React-project/static/js/511.a2aa371f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c0c1522.css",
-    "static/js/main.5933c25c.js"
+    "static/css/main.5e8a85e9.css",
+    "static/js/main.c9b2c8ff.js"
   ]
 }
