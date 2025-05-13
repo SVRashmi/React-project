@@ -67,17 +67,17 @@ function Headers() {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      Ai-Concepts
+                     Courses
                     </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                       <li>
-                        <Link className="dropdown-item" to="/ai-models">
-                          AI Models
+                        <Link className="dropdown-item" to="/nlp">
+                          Natural Language Processing (NLP)
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item" to="/machine-learning">
-                          Machine Learning
+                         Machine Learning (ML)
                         </Link>
                       </li>
                       <li>
@@ -89,9 +89,11 @@ function Headers() {
                   </li>
 
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      Blog
-                    </a>
+                     <li>
+                        <Link className="nav-link" to="/Blog">
+                          Blog
+                        </Link>
+                      </li>
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link" to="/ContactUs">

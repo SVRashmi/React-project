@@ -1,0 +1,68 @@
+/* Nlp.css */
+.nlp-hero {
+  position: relative;
+  height: 80vh;
+  background-image: url('/public/Images/9.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.nlp-hero.deeplearning-hero
+{
+  background-image: url('/public/Images/DP.jpg');
+  justify-content: left;
+}
+.nlp-hero.ML-hero
+{
+  background-image: url('/public/Images/ML.jpg');
+  justify-content: left;
+  
+}
+
+.nlp-overlay {
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 16px;
+  width: 50%;
+  margin: 2rem;
+}
+
+
+.nlp-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.nlp-subtitle {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.list
+{
+  opacity: 1;
+  color: rgb(100 116 139 / 1);
+  padding: 2rem;
+  box-shadow: 0 2px 8px -2px hsla(0, 0%, 9%, .08), 0 8px 12px -2px hsla(0, 0%, 9%, .16);
+  background-color: #fff;
+  margin-bottom: 20px;
+  width: 30%;
+}
+.bg-color
+{
+  background-color:#970939;
+  margin: 0 auto;
+  display: block;
+}
+@media(min-width:1024px)
+{
+  .custom-negative-mt-lg
+  {
+    margin-top: -3.5rem;
+  }
+}

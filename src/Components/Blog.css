@@ -1,0 +1,15 @@
+
+.bg-img
+{
+    background-image: url('/public/Images/Blog.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 65vh;
+}
+.width_cust
+{
+    width: 200px;
+    border: 0px;
+}

@@ -11,12 +11,13 @@ import AiConcepts from "./Components/AiConcepts";
 import Blog from "./Components/Blog";
 import ContactUsForm from "./Components/ContactUs";
 import reportWebVitals from './reportWebVitals';
-import AIModels from "./Components/AIModels";
+import Nlp from "./Components/Nlp";
 import MachineLearning from "./Components/MachineLearning";
 import DeepLearning from "./Components/DeepLearning";
 import Brochure from "./Components/Brochure";
 import ModalRoutesWrapper from './Components/ModalRoutesWrapper';
 import AdminDashboard from "./Components/AdminDashboard";
+import Enroll from "./Components/Enroll";
 const RootRoutes = () => {
   const location = useLocation();
   const backgroundLocation = location.state?.backgroundLocation;
@@ -27,13 +28,15 @@ const RootRoutes = () => {
         <Route path="/" element={<App />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/AiConcepts" element={<AiConcepts />} />
-        <Route path="/ai-models" element={<AIModels />} />
+        <Route path="/nlp" element={<Nlp />} />
         <Route path="/machine-learning" element={<MachineLearning />} />
         <Route path="/deep-learning" element={<DeepLearning />} />
         <Route path="/ContactUs" element={<ContactUsForm />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Brochure" element={<Brochure />} />
         <Route path="/AdminDashboard" element={<AdminDashboard />} />
+        <Route path="/Enroll" element={<Enroll />} />
+      
       </Routes>
 
       {/* Only show modal routes if triggered */}

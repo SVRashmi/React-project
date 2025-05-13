@@ -36,6 +36,29 @@
     color: #181818;
   }
   
+.logo-box {
+  border: 2px solid #a48b96; /* soft pink outline */
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(145deg, #1d1d3b, #2c2c4e); /* gradient dark bg */
+  color: #f3a6a1; /* pink text */
+}
+
+.logo-line1 {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.logo-line2 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin-top: 8px;
+}
+
+
   @media (max-width: 768px) {
     .social-icon {
       width: 28px;
