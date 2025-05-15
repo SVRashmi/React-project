@@ -1,8 +1,11 @@
 import React from 'react'
 import './Form.css'
+import Footer from './Footer'
 
 function ContactUs() {
   return (
+    <div>
+    
     <div className="container m-5">
     <h1 className="contact-header">Contact Us About Our Courses</h1>
     <p className="contact-description">We’d love to show you how...</p>
@@ -21,8 +24,8 @@ function ContactUs() {
     <p>+44 20 3514 0663</p>
     </div>
     <div className="contact-box">
-    <h3>Chat with Sales</h3>
-    <button className="contact-button">Chat with Sales</button>
+    <h3>Email  Us</h3>
+    <p>smart.ai.academy.mail@gmail.com</p>
     </div>
     <div className="contact-box">
     <h3>Get a course demo</h3>
@@ -31,6 +34,8 @@ function ContactUs() {
     </div>
     
    
+    </div>
+    <Footer />
     </div>
     
   )

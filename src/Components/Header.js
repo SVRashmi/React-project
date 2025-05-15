@@ -106,7 +106,7 @@ function Headers() {
                   <li className="nav-item">
                     <Link
                       className="nav-link"
-                      to="/Signin"
+                      to="/Signup"
                       state={{ backgroundLocation: location }}
                     >
                       Signup

@@ -14,7 +14,7 @@ const UserChart = () => {
   const [chartType, setChartType] = useState("bar"); 
 
   useEffect(() => {
-    fetch("http://localhost:3001/posts")
+    fetch("http://localhost:3002/posts")
       .then((res) => res.json())
       .then((posts) => {
         const counts = { Faculty: 0, Student: 0 };

@@ -18,6 +18,10 @@ import Brochure from "./Components/Brochure";
 import ModalRoutesWrapper from './Components/ModalRoutesWrapper';
 import AdminDashboard from "./Components/AdminDashboard";
 import Enroll from "./Components/Enroll";
+import Signup from "./Components/Signup";
+import Login from './Components/Login';
+import FacultyDashboard from './Components/FacultyDashboard';
+import StudentDashboard from './Components/StudentDashboard';
 const RootRoutes = () => {
   const location = useLocation();
   const backgroundLocation = location.state?.backgroundLocation;
@@ -36,10 +40,16 @@ const RootRoutes = () => {
         <Route path="/Brochure" element={<Brochure />} />
         <Route path="/AdminDashboard" element={<AdminDashboard />} />
         <Route path="/Enroll" element={<Enroll />} />
+        <Route path="/Signup" element={<Signup />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/FacultyDashboard" element={<FacultyDashboard />} />
+        <Route path="/StudentDashboard" element={<StudentDashboard />} />
+     
+
       
       </Routes>
 
-      {/* Only show modal routes if triggered */}
+ 
       <ModalRoutesWrapper />
     </>
   );

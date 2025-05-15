@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
 
-const Signup = () => {
+const Signup = ({ onClose })=> {
   const navigate = useNavigate();
   const [existingUsers, setExistingUsers] = useState([]);
   
@@ -21,7 +21,7 @@ const Signup = () => {
   const [errors, setErrors] = useState({});
   
   useEffect(() => {
-    axios.get("http://localhost:3001/posts")
+    axios.get("http://localhost:3002/posts")
     .then(res => setExistingUsers(res.data))
     .catch(err => console.error("Fetch users failed:", err));
   }, []);
@@ -44,7 +44,7 @@ const Signup = () => {
     return Object.keys(newErrors).length === 0;
   };
   const location = useLocation(); // 👈 this is the correct way
-
+  
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
     setErrors({ ...errors, [e.target.name]: "" });
@@ -56,7 +56,7 @@ const Signup = () => {
     if (!validateForm()) return;
     
     try {
-      await axios.post("http://localhost:3001/posts", formData);
+      await axios.post("http://localhost:3002/posts", formData);
       alert(`Signup successful! Please login.`);
       setFormData({ name: "", email: "", password: "", userType: "Faculty" });
       navigate("/Login", { state: { backgroundLocation: location } });
@@ -71,34 +71,36 @@ const Signup = () => {
     <div className="modal-overlay">
     <div className="modal-content ai-modal">
     <div className="ai-image-section">
-    <img src={`${process.env.PUBLIC_URL}/Images/Login.png`} alt="AI Signup" />
+    <img src={`${process.env.PUBLIC_URL}/Images/Login.jpg`} alt="AI Signup" />
     </div>
     <div className="ai-form-section">
+    <button onClick={onClose} className="close-btn">✕</button>
     <h2>Sign Up</h2>
     <form onSubmit={handleSubmit}>
     <div className="position-relative">
     <FontAwesomeIcon icon={faUser} className="fontuser_icon" />
     <input type="text" name="name" placeholder="Full Name" value={formData.name} onChange={handleChange} />
-    {errors.name && <p style={{ color: "red" }}>{errors.name}</p>}
-    </div>
     
+    </div>
+    {errors.name && <p style={{ color: "red" }}>{errors.name}</p>}
     <div className="position-relative">
     <FontAwesomeIcon icon={faEnvelope} className="fontuser_icon" />
     <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} />
-    {errors.email && <p style={{ color: "red" }}>{errors.email}</p>}
+    
     </div>
+    {errors.email && <p style={{ color: "red" }}>{errors.email}</p>}
     
     <div className="position-relative">
     <FontAwesomeIcon icon={faKey} className="fontuser_icon" />
     <input type="password" name="password" placeholder="Password" value={formData.password} onChange={handleChange} />
-    {errors.password && <p style={{ color: "red" }}>{errors.password}</p>}
-    </div>
     
+    </div>
+    {errors.password && <p style={{ color: "red" }}>{errors.password}</p>}
     <select name="userType" value={formData.userType} onChange={handleChange} className="form-select mt-2">
     <option value="Faculty">Faculty</option>
     <option value="Student">Student</option>
     
-
+    
     </select>
     
     <button type="submit" className="btn btn-primary mt-3">Sign Up</button>
