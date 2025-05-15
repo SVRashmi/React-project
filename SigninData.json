@@ -20,6 +20,27 @@
       "email": "Faculty1@gmail.com",
       "password": "R@shmi771",
       "userType": "Faculty"
+    },
+    {
+      "id": "bddc",
+      "name": "Student2",
+      "email": "Student2@gmail.com",
+      "password": "R@shmi771",
+      "userType": "Student"
+    },
+    {
+      "id": "465c",
+      "name": "Student 3",
+      "email": "Student3@gmail.com",
+      "password": "R@shmi771",
+      "userType": "Student"
+    },
+    {
+      "id": "9cf4",
+      "name": "Student 4",
+      "email": "student4@gmail.com",
+      "password": "R@shmi771",
+      "userType": "Student"
     }
   ],
   "courses": [
@@ -77,7 +98,6 @@
       "meetingId": "ee613e01-b340-43d4-b811-8699ae679f87",
       "meetingUrl": "https://meet.jit.si/ee613e01-b340-43d4-b811-8699ae679f87"
     }
-   
   ],
   "enrollments": [
     {
@@ -89,6 +109,11 @@
       "id": "ac93",
       "studentId": "0ef6",
       "courseId": "e618"
+    },
+    {
+      "id": "05e3",
+      "studentId": "bddc",
+      "courseId": "e4cb"
     }
   ],
   "faculty": [],

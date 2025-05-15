@@ -43,7 +43,7 @@ const StudentDashboard = () => {
         `http://localhost:3002/enrollments?studentId=${loggedInStudent.id}`
       );
       setEnrollments(res.data);
-      // Get full course objects
+   
       const courseIds = res.data.map((e) => e.courseId);
       const enrolledCourses = await axios.get("http://localhost:3002/courses");
       const filtered = enrolledCourses.data.filter((c) =>
@@ -99,7 +99,7 @@ const StudentDashboard = () => {
 
       <header className="dashboard-header">
         <h1>Welcome, {loggedInStudent.name}</h1>
-        <button className="btn btn-logout" onClick={handleLogout}>
+        <button className="btn btn-light" onClick={handleLogout}>
           Logout
         </button>
       </header>

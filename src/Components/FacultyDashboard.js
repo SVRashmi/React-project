@@ -187,7 +187,7 @@ const FacultyDashboard = () => {
         <ToastContainer position="top-right" autoClose={3000} hideProgressBar={false} />
         <header className="dashboard-header">
         <h1>Welcome, {loggedInFaculty.name}</h1>
-        <button className="btn btn-logout" onClick={handleLogout}>
+        <button className="btn btn-light" onClick={handleLogout}>
         Logout
         </button>
         </header>
